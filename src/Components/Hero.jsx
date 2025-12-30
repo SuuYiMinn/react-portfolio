@@ -3,6 +3,7 @@ import AnimatedTitles from './utils/AnimatedTitles'
 import { FaFacebook, FaViber } from 'react-icons/fa'
 import { BsTelegram, BsWhatsapp } from 'react-icons/bs'
 import { GrGithub } from 'react-icons/gr'
+import profile from "../assets/profile.jpeg"
 
 const Hero = () => {
   return (
@@ -49,8 +50,15 @@ const Hero = () => {
 
             </div>
           </div>
-          <div className="w-65 h-65 md:w-75 md:h-75 rounded-3xl bg-center bg-cover flex-shrink-0 bg-[url(/src/assets/profile.jpeg)]">
-          </div>
+          {/* <div className="w-65 h-65 md:w-75 md:h-75 rounded-3xl bg-center bg-cover flex-shrink-0" style={{ backgroundImage: `url(${profile})` }}
+>
+          </div> */}
+          <img
+  src={profile}
+  alt="profile"
+  className="w-[260px] h-[260px] rounded-3xl object-cover"
+/>
+
         </div>
       </section>
     </Fragment>

@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import phpecom from "../assets/phpecom.png"
+import uiux from "../assets/uiux.png"
 //import AnimatedRoleTitles from "./AnimatedRoleTitles";
 import {
   FaCss3Alt,
@@ -118,13 +120,13 @@ export const portfolioItems = [
     title: "PHP E-commerce Website",
     category: "Web Development",
     image:
-      "src/assets/phpecom.png",
+      phpecom,
   },
   {
     title: "PHP E-commerce Website",
     category: "UI/UX Design",
     image:
-      "src/assets/uiux.png",
+      uiux,
   },
   {
     title: "Laravel School Management System",
