@@ -15,7 +15,7 @@ const Experience = () => {
                                 const isLeft = index % 2 === 0;
                                 return (
                                     <div key={index} className={`relative flex items-center w-full ${isLeft ? "md:justify-start" : "md:justify-end"} justify-center`}>
-                                        <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
+                                        <div className="hidden md:absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
                                             <div className="flex justify-center items-center w-12 h-12 rounded-full shadow-lg bg-sky-500">
                                                 <span className="text-3xl text-white">{exp.logo}</span>
                                             </div>
